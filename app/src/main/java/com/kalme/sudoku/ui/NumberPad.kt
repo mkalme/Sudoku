@@ -94,7 +94,7 @@ class NumberPad(val width: Int, private val height: Int, private val view: View)
 
     // Keeps track of each cell's position and area on screen in a list
     private fun initializeCells() {
-        for(y in 0 until 4){
+        for(y in 0 until 3){
             for(x in 0 until 3){
                 val cell = getCellAreaOnScreen(x, y)
                 cells.add(Cell(cell, x, y))
