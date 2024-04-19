@@ -1,8 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Sudoku" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.Sudoku.Activity.Main" parent="Theme.MaterialComponents.DayNight">
+        <item name="actionBarTheme">@style/Style.CloudBackup.Main.ToolBar</item>
+        <item name="android:statusBarColor">#111111</item>
+    </style>
+
+    <style name="Style.CloudBackup.Main.ToolBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
 
     <style name="Style.Sudoku.SplashScreen" parent="Theme.MaterialComponents.DayNight">
